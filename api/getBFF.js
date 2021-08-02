@@ -11,7 +11,6 @@ function getBFF(aspath) {
     return watchPageJSON;
 }
 
-
 function getMenu() {
     return {}
 }

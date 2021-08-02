@@ -30,18 +30,13 @@ function MyApp({ Component, pageProps }) {
   return (
   <>
     <Navigation />
-    {isLoading ?<span>Loader</span>:<Component {...pageProps} resp={resp} />}
+    {isLoading ?<span>Loader</span>:<Component {...pageProps} {...resp} />}
   </>)
 }
 
 const getData  = async(asPath)=>{
   console.log(asPath)
-  // const {asPath=""}= appContext.ctx;
-  // console.log("calling get BFF for ", asPath, appContext.toString());
   const response = await getBFF(asPath) ;
-  // const appContextValue = await App.getInitialProps(appContext)
-  // console.log("appContextValue", appContextValue);
-  debugger
   return {...response.data, };
 }
 
