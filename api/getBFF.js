@@ -8,7 +8,7 @@ function getBFF(aspath) {
     }else if(aspath.includes("watch")){
         return watchPageJSON;
     }
-    return watchPageJSON;
+    return landingPageJSON;
 }
 
 function getMenu() {

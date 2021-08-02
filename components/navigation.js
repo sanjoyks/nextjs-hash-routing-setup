@@ -9,17 +9,17 @@ const Navigation = () => {
                 </Link>
             </li>
             <li>
-                <Link href="/#/landing">
+                <Link href="/landing">
                     <a>Landing</a>
                 </Link>
             </li>
             <li>
-                <Link href="/#/tv">
+                <Link href="/tv">
                     <a>tv</a>
                 </Link>
             </li>
             <li>
-                <Link href="/#/watch">
+                <Link href="/watch">
                     <a>watch</a>
                 </Link>
             </li>
